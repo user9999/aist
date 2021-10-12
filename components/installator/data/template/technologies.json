@@ -1,0 +1,32 @@
+{
+    "JQuery":{
+        "location":"remote",
+         "css":"",
+         "js":{
+            "production":"<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js\"></script>"
+         }
+    },
+    "React":{
+        "location":"remote",
+         "css":"",
+         "js":{
+            "development":"<!--React development-->\r\n<script crossorigin src=\"https://unpkg.com/react@17/umd/react.development.js\"></script>\r\n<script crossorigin src=\"https://unpkg.com/react-dom@17/umd/react-dom.development.js\"></script>\r\n<!-- Don't use this in production: -->\r\n<script src=\"https://unpkg.com/@babel/standalone/babel.min.js\"></script>",
+            "production":"<script crossorigin src=\"https://unpkg.com/react@17/umd/react.production.min.js\"></script><script crossorigin src=\"https://unpkg.com/react-dom@17/umd/react-dom.production.min.js\"></script>"
+         }
+    },
+    "Vue":{
+        "location":"remote",
+        "css":"",
+        "js":{
+            "development":"<!--Vue development--><script src=\"https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js\"></script>",
+            "production":"<script src=\"https://cdn.jsdelivr.net/npm/vue@2\"></script>"
+        }
+    },
+        "Angular":{
+        "location":"remote",
+        "css":"",
+        "js":{
+            "production":"<script src=\"http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js\"></script>"
+        }
+    }
+}

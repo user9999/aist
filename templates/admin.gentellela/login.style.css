@@ -1,0 +1,12 @@
+#outer {height: 100%; overflow: hidden; position: relative; width: 100%;}
+#outer[id] {display: table; position: static;}
+
+#middle {position: absolute; top: 50%; width: 100%; text-align: center;} /* for explorer only*/
+#middle[id] {display: table-cell; vertical-align: middle; position: static;}
+
+#inner {position: relative; top: -50%; text-align: left;  height:100px; } /* for explorer only */
+#inner {width: 500px; margin-left: auto; margin-right: auto; height:100px; } /* for all browsers*/
+#loginfields {padding-left:0px; padding-top:0px; color:#000; font-size:80%;}
+table tr td {color: #444;text-align:center;}
+h1{font-size:22px !important}
+/* optional: #inner[id] {position: static;} */

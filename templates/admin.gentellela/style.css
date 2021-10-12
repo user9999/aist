@@ -1,0 +1,75 @@
+table.admin, table.recursive {
+    font-size: 110%;
+}
+tr.caption {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.admin tr:nth-child(2n) {
+    background: #f0f0f0; /* Цвет фона */
+   } 
+.admin tr:nth-child(1) {
+    background: #2a3f541c; /* Цвет фона */
+    color: #455a70; /* Цвет текста */
+} 
+.admin tr:hover,.recursive  tr:hover {
+    background-color: #e7e7e9;
+}
+table.admin tr td,.recursive tr td {
+    padding: 10px 0 10px 10px;
+}
+.div_level1 {
+    margin-left: 30px;
+}
+.div_level2 {
+    margin-left: 60px;
+}
+.div_level3 {
+    margin-left: 90px;
+}
+.div_level4 {
+    margin-left: 120px;
+}
+tr.tr_level0{
+    background: #2a3f541c;
+    color: #455a70;
+}
+tr.tr_level1{
+    background: #66686e0d;
+    color: #455a70d4;
+}
+tr.tr_level1 td:nth-child(2) {
+    text-indent: 30px;
+}
+tr.tr_level2 td:nth-child(2) {
+    text-indent: 60px;
+}
+tr.tr_level3 td:nth-child(2) {
+    text-indent: 90px;
+}
+tr.tr_level4 td:nth-child(2) {
+    text-indent: 120px;
+}
+
+select[multiple] {
+    min-height: 150px !important;
+}
+.recursive tr td.opened:before {
+    content: "\25BC";
+    margin-right: 5px;
+}
+.recursive tr td.closed:before {
+    content: "\25BA";
+    margin-right: 5px;
+}
+.installator_help fieldset {
+    border: 1px solid #2a3f543d;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 25px 0 15px 0;
+}
+.installator_help legend {
+    padding:0;
+    margin:0;
+    width:auto;
+}

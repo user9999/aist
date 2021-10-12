@@ -1,0 +1,92 @@
+.nav{
+width:280px;
+float: left;
+padding:0 0 0 55px;
+}
+#nav{
+font-weight:bold;
+margin: 0;
+padding: 40px 56px 0 56px;
+list-style: none;
+background-image: url('/images/menu_bg.png');
+background-repeat:no-repeat;
+background-position: left top;
+height: 468px;
+width: 177px;;
+}
+#nav ul {
+font-weight:bold;
+margin: 0;
+list-style: none;
+z-index: 100;
+}
+#rotator ul li{
+list-style-type: none;
+}
+#nav div ul li {
+margin-bottom: 0;
+}
+
+#nav ul li{width:200px;float:left}
+#nav ul li ul{width:200px;float:left}
+/* 3 уровень*/
+#nav ul ul{font-weight:normal}
+#nav div ul li a{display: inline-block;white-space: normal;
+width: 50%;}
+#nav div ul ul li a{height: auto;}
+/* 3 уровень end*/
+#nav li {
+display: block;
+position: relative;
+margin-bottom: 14px;;
+}
+#nav li div {
+position: absolute;
+top: 15px;
+left: -9999px;
+width: 850px !important;
+background:#f3e1c9;
+}
+.brands div {
+z-index: 100;
+padding-top: 5px;
+}
+#nav div{
+background:#fff;
+opacity:0.9;
+padding-bottom: 9px;
+}
+#nav div li {
+width:250px;
+
+}
+#nav div ul{
+margin-top:6px;
+margin-bottom:5px;
+}
+#nav div li a{
+width:230px !important;
+text-align:left;
+height: 32px;
+border-left:none;
+margin-left:14px;
+display:block;
+}
+.brands li {
+margin-right: 2px !important;
+border: none !important;
+}
+.brands a {
+text-align: center;
+display: table-cell;
+text-decoration:none;
+color: #343434;
+vertical-align:middle;
+white-space: nowrap;
+}
+
+
+.brands a:hover {}
+li.hover{}
+#nav li.hover div {left:233px;top:-70px}
+

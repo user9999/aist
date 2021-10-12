@@ -1,0 +1,156 @@
+
+ul { 
+    font-size: 1em; 
+    line-height: 1.5em;
+}
+
+p {
+    margin: 0px;
+    margin-bottom: 2px;
+}
+
+textarea {
+    padding: 5px;
+}
+
+body, table {
+    padding: 8px;
+    font-family: Segoe UI, Tahoma, sans-serif;
+    font-size: 100%;
+    color: #000;
+}
+
+body {
+    margin: 0px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 14px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 145%;
+    font-weight: normal;
+    margin-bottom: 11px;
+}
+
+h2 {
+    font-size: 115%;
+    font-weight: normal;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+
+.body {
+    padding: 0px;
+    background-color: #fff;
+    color: #111;
+    font-size: 80%;
+    background-repeat: repeat-x;
+}
+
+.mainbody {
+    padding-left: 17px;
+    padding-top: 0px;
+    color: #000;
+}
+
+.mini {
+    color: #333;
+    background-color: #fff; 
+    font-size: 70%;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textbox {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 2px;
+    font-size: 100%;
+    padding: 2px;
+    font-family: Segoe UI, Tahoma, sans-serif; 
+}
+
+.button {
+    background-color: #DC001D;
+    border: 1px solid #890000;
+    color: #fff;
+    font-size: 100%;
+    font-family: Segoe UI, Tahoma, sans-serif;   
+    margin: 0px;
+}
+
+.button2 {
+    background-color: #DC001D;
+    border: 1px solid #890000;
+    height: 35px;
+    color: #fff;
+    font-size: 100%;
+    font-family: Segoe UI, Tahoma, sans-serif;   
+    margin: 0px;
+}
+
+.menu {
+    background-image: url("img/menu.png");
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 75%;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.bodytext {
+    font-size: 80%;
+}
+
+/* Links */
+a {
+    color: #DC001D;
+}
+
+a:hover {
+    color: #B00017;
+}
+
+.menuitem {
+    background-color: #fff; 
+    padding: 3px; 
+    margin-bottom: 1px;
+    color: #000;
+}
+
+.menuitem a {
+    color: #000;
+}
+
+.menuitem a:hover {
+    color: #890012;
+}
+
+table tr td {
+    color: #111;
+}
+
+.widget tr td {
+    background-color: #FFFFDC;
+    padding: 3px;
+    border: 1px solid #FFFED4;
+    font-size: 80%;
+    
+}
+
+.spacing {
+    height: 10px;
+}
+
+.spacing2 {
+    height: 20px;
+}
+
+#ui-datepicker-div {
+    font-size: 70%;
+}

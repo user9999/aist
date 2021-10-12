@@ -1,0 +1,81 @@
+div:not([class]){
+    width:100%;
+}
+/* elements */
+
+.pagewidth {
+    width:100%;
+    min-height:100vh;
+    background:@back-color;
+}
+h1,.h1{
+    text-align: center;
+    font-size:3vw;
+    color:@font-hcolor;
+    display: inline-block;
+}
+h1.left{
+    width:55%;
+}
+.left{
+    float: left;
+}
+div a.h1{
+    width:44%;
+}
+.adminmenu.recursive {
+
+}
+ul>li>ul{
+    display:none;
+}
+ul.menu.recursive {
+    padding-top: 30px;
+}
+.menu.recursive li {
+    height: auto;
+    line-height: 50px;
+    display: block;
+    width:100%;
+    border:@WB solid @font-hcolor;
+    border-bottom:none;
+}
+.menu.recursive li:last-child{
+    border-bottom:@WB solid @font-hcolor;
+}
+.menu.recursive a{
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 170%;
+        padding-left: 30px;
+}
+span.closed:before{
+   content: "\25BA";
+   font-size: 150%;
+   color:#666;
+   
+}
+span.opened:before{
+   content: "\25BC";
+   color:#666;
+}
+span.opened,span.closed {
+   margin-left: 15px;
+   width: 10vw;
+   cursor: pointer;
+   display: inline-block;
+   float: left;
+}
+span.open:before{
+    content: "\0021";
+
+}
+span.open{
+   margin-left: 15px;
+   width: 10vw;
+   display: inline-block;
+   float: left; 
+}

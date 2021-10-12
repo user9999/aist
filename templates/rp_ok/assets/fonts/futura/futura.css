@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Light'), local('Futura-PT-Light'),
+        url('/assets/fonts/futura/FuturaPT-Light/FuturaPT-Light.woff2') format('woff2'),
+        url('/assets/fonts/futura/FuturaPT-Light/FuturaPT-Light.woff') format('woff'),
+        url('/assets/fonts/futura/FuturaPT-Light/FuturaPT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Book'), local('Futura-PT-Book'),
+        url('/assets/fonts/futura/FuturaPT-Book/FuturaPT-Book.woff2') format('woff2'),
+        url('/assets/fonts/futura/FuturaPT-Book/FuturaPT-Book.woff') format('woff'),
+        url('/assets/fonts/futura/FuturaPT-Book/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Medium'), local('Futura-PT-Medium'),
+        url('/assets/fonts/futura/FuturaPT-Medium/FuturaPT-Medium.woff2') format('woff2'),
+        url('/assets/fonts/futura/FuturaPT-Medium/FuturaPT-Medium.woff') format('woff'),
+        url('/assets/fonts/futura/FuturaPT-Medium/FuturaPT-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: local('Futura PT Bold'), local('Futura-PT-Bold'),
+        url('/assets/fonts/futura/FuturaPT-Bold/FuturaPT-Bold.woff2') format('woff2'),
+        url('/assets/fonts/futura/FuturaPT-Bold/FuturaPT-Bold.woff') format('woff'),
+        url('/assets/fonts/futura/FuturaPT-Bold/FuturaPT-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+  

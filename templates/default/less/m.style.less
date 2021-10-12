@@ -1,0 +1,176 @@
+@charset 'UTF-8';
+
+/* переменные */
+@font-color:#000000;
+@font-hcolor:#000000;
+@font-color2:#cccccc;
+@back-color:#ffffff;
+@back-color2:#999999;
+@back-hcolor:#cccccc;
+@border-color:#000000;
+@link-color:#000000;
+@link-hcolor:#333333;
+@header-font: Georgia, 'Times New Roman', Times, serif;
+@main-font: Georgia, 'Times New Roman', Times, serif;
+@WB:1px;//ширина границ
+
+/* сброс css */
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+div:not([class]){
+    width:100%;
+}
+/* elements */
+
+.pagewidth {
+    width:100%;
+    min-height:100vh;
+    background:@back-color;
+}
+h1,.h1{
+    text-align: center;
+    font-size:3vw;
+    color:@font-hcolor;
+    display: inline-block;
+}
+h1.left{
+    width:55%;
+}
+.left{
+    float: left;
+}
+div a.h1{
+    width:44%;
+}
+.adminmenu.recursive {
+
+}
+ul>li>ul{
+    display:none;
+}
+ul.menu.recursive {
+    padding-top: 30px;
+}
+.menu.recursive li {
+    height: auto;
+    line-height: 50px;
+    display: block;
+    width:100%;
+    border:@WB solid @font-hcolor;
+    border-bottom:none;
+}
+.menu.recursive li:last-child{
+    border-bottom:@WB solid @font-hcolor;
+}
+.menu.recursive a{
+    display: inline-block;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    font-size: 170%;
+        padding-left: 30px;
+}
+span.closed:before{
+   content: "\25BA";
+   font-size: 150%;
+   color:#666;
+   
+}
+span.opened:before{
+   content: "\25BC";
+   color:#666;
+}
+span.opened,span.closed {
+   margin-left: 15px;
+   width: 10vw;
+   cursor: pointer;
+   display: inline-block;
+   float: left;
+}
+span.open:before{
+    content: "\0021";
+
+}
+span.open{
+   margin-left: 15px;
+   width: 10vw;
+   display: inline-block;
+   float: left; 
+}

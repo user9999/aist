@@ -1,0 +1,48 @@
+ul.menu.recursive,ul.menu.recursive ul{
+   list-style-type: none; 
+}
+ul.menu.recursive a {
+    color: #3f3f3f;
+    font-size: 135%;
+    text-decoration: none;
+        
+}
+ul.menu.recursive a:hover {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid red;
+}
+/* 
+span.open:before {
+    content: "\25BC";
+     
+}
+*/
+span.closed:before{
+    content: "\25BA";
+    font-size: 160%;
+    color:red;
+    
+}
+span.opened:before{
+    content: "\25BC";
+    color:red;
+}
+span.opened,span.closed {
+    margin-left: 15px;
+    width: 30px;
+    cursor: pointer;
+    display: inline-block;
+}
+ul.menu.recursive li {
+    margin: 6px 0 6px 0;
+}
+ul.child{
+    display:none;
+}
+.adminmenu.recursive {
+    margin-left: 20px;
+    font-size: 110%;
+    font-weight: bold;
+    min-width: 250px;
+}

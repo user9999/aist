@@ -1,0 +1,170 @@
+ul { 
+    font-size: 1em; 
+    line-height: 1.5em;
+}
+p {
+    margin: 0px;
+    margin-bottom: 2px;
+}
+textarea {
+    padding: 5px;
+}
+body, table {
+    font-family: Segoe UI, Tahoma, sans-serif;
+    font-size: 100%;
+    color: #000;
+}
+body {
+    margin: 0px;
+    background-color: #fff;
+}
+.logo {
+    font-size: 14px;
+}
+h1 {
+    margin: 0px;
+    font-size: 145%;
+    font-weight: normal;
+    margin-bottom: 11px;
+}
+h2 {
+    font-size: 115%;
+    font-weight: normal;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+h3 {
+    font-size: 115%;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+.body {
+    padding: 0px;
+    background-color: #fff;
+    color: #111;
+    font-size: 80%;
+    background-repeat: repeat-x;
+}
+.mainbody {
+    padding-left: 17px;
+    padding-top: 0px;
+    color: #000;
+}
+
+.mini {
+    color: #333;
+    background-color: #fff; 
+    font-size: 70%;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textbox {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 2px;
+    font-size: 100%;
+    padding: 2px;
+    font-family: Segoe UI, Tahoma, sans-serif; 
+}
+
+.button {
+    background-color: #DC001D;
+    border: 1px solid #890000;
+    color: #fff;
+    font-size: 100%;
+    font-family: Segoe UI, Tahoma, sans-serif;   
+    margin: 0px;
+}
+
+.button2 {
+    background-color: #DC001D;
+    border: 1px solid #890000;
+    height: 35px;
+    color: #fff;
+    font-size: 100%;
+    font-family: Segoe UI, Tahoma, sans-serif;   
+    margin: 0px;
+}
+
+.menu {
+    background-image: url("img/menu.png");
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 75%;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.bodytext {
+    font-size: 80%;
+}
+
+/* Links */
+a {
+    color: #DC001D;
+}
+
+a:hover {
+    color: #B00017;
+}
+
+.menuitem {
+    background-color: #fff; 
+    padding: 3px; 
+    margin-bottom: 1px;
+    color: #000;
+}
+
+.menuitem a {
+    color: #000;
+}
+
+.menuitem a:hover {
+    color: #890012;
+}
+
+table tr td {
+    color: #111;
+}
+
+.widget tr td {
+    background-color: #FFFFDC;
+    padding: 3px;
+    border: 1px solid #FFFED4;
+    font-size: 80%;
+}
+
+.spacing {
+    height: 10px;
+}
+
+.spacing2 {
+    height: 20px;
+}
+
+#ui-datepicker-div {
+    font-size: 70%;
+}
+
+.hd td {
+    background-color: #eee;
+}
+a.nobord{display:block;float:right;margin-top:1px}
+img.nobord{border:0;}
+.tb tr td, .tb tr th{padding:5px;padding:5px;padding-left:8px;padding-right:8px;}
+.tb2 tr td{padding:3px;}
+.tb .hd td, .tb .hd th{text-align:center;background-color:#ddd;}
+.tb .hd td.rightal, .tb .hd th.rightal{text-align:center;background-color:#ddd;}
+.tb .hd td.centeral, .tb .hd th.centeral{text-align:center;background-color:#ddd;}
+.tb tbody tr td{text-align:left;}
+.tb tbody tr td.rightal{text-align:right;}
+.tb tbody tr td.centeral{text-align:center;}
+.tb tbody tr.ordered td{background-color:#ddd;}
+.tb .hd th{cursor:pointer;}
+.tb .tbg{background-color:#ddd;width:110px}
+.hid input{color:#f99;border:1px solid #aaa}
+.hid select{color:#f66;border:1px solid #aaa}
+.hid textarea{color:#f99;border:1px solid #aaa}

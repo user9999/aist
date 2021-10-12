@@ -1,0 +1,30 @@
+input[type=text],
+input[type=file]{
+  margin-bottom: 20px;
+}
+ 
+#process {
+  display: none;
+}
+.img-item {
+    float: left;
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+.img-item img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.delete-image{
+    position: absolute;
+    right: 0;
+    z-index: 1000;
+    font-size: 150%;
+    font-weight: bold;
+    top: 0;
+    cursor:pointer;
+}

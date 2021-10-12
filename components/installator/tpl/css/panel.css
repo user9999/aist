@@ -1,0 +1,15 @@
+.wrapper {
+padding-bottom : 50px;
+}
+.footer {
+position : fixed;
+min-height : 80px;
+bottom : 0;
+width: 100%;
+background: #ececec;
+border-top: 1px solid black;
+}
+.panel {
+    margin-right: 200px;
+}
+

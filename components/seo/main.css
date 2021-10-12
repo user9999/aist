@@ -1,0 +1,42 @@
+html,body{margin:0 0 0 0;padding:0 0 0 0;font-size:10pt;}
+body{background:#dddddd;}
+@font-face {font-family: 'My Font';src: url('html/html5/fonts/IZVESTIA.ttf');}
+@font-face {font-family: 'Font1';src: url('html/html5/fonts/Traktir-Modern_3-d.ttf');}
+p{margin:0 0 5px 10px;}
+tr.month{background:#adc3d7;}
+.disable{border:0;background-color:#dddddd;float:left;font-weight:bold;text-align:center;font-size:14px;}
+table.asurf{margin:0;padding:0;}
+A:link.menu{color:#99000a;text-decoration:none;}
+A:visited.menu{color:#99000a;text-decoration:none;}
+A:hover.menu{color:#99000a;text-decoration:underline;}
+A:active.menu{color:#99000a;text-decoration:none;}
+h2{text-align:center;margin-top:0px;padding-top:0;font-family: 'Font1';color:#99000a;font-size:28px}
+.foldheader{cursor:hand ; font-weight:bold ;list-style-image:url(fold.gif);color:#99000a;}
+.foldinglist{list-style-image:url(list.gif);}
+.folder{list-style-image:url(list.gif);font-weight:bold;}
+table.banstat{width:60%;margin:auto;text-align:center;}
+.cash{border:0;text-align:right;background:#dddddd;}
+input{color:#99000a;font-weight:bold;background:#f0f0f0;}
+input.little{color:#99000a;background:#f0f0f0;font-size:10px;}
+select{color:#99000a;font-weight:bold;background:#f0f0f0;}
+textarea{background:#f0f0f0;color:#000077;font-weight:bold;}
+.light{background:#ffffff;}
+.context{border:#ff000a 3px outset;margin:5px 4px 5px 5px;padding:0px 2px 0px 3px;background:#f0f0ff;}
+.system{padding:1px 1px 0 1px;text-align:center;font-style:italic;}
+.warn{color:#99000a;font-weight:bold;padding: 0 0 0 8px;margin:0 0 2px 0;}
+.marked{background:#11dd55;}
+table{margin:auto;}
+div.menu1{text-align:center;padding:0 0 0 0;margin:0 0 0 0;}
+A:link.menu1{display:block;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:3px;float:left;text-align:center;font-weight:bold;font-size:12px;border:1px groove #99000a;}
+A:visited.menu1{display:block;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:3px;float:left;text-align:center;font-weight:bold;font-size:12px;border:1px groove #99000a;}
+A:hover.menu1{display:block;width:100x;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:3px;float:left;text-align:center;font-weight:bold;font-size:12px;border:1px groove #99000a;background:#f0f0ff;}
+A:active.menu1{display:block;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:3px;float:left;text-align:center;font-weight:bold;font-size:12px;border:1px groove #99000a;}
+.table{width=350px;}
+p.menu1{display:block;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:3px;float:left;text-align:center;font-weight:bold;font-size:11px;border:1px groove #99000a;}
+.error{border:2px inset red}
+ul.treeview{margin-left:-20px}
+.treeview ul{margin:0;padding:0;}
+.treeview li{background:url(list.gif) no-repeat left center;list-style-type: none;padding-left: 30px;margin-bottom: 3px;font-weight:bold;color:#99000a;}
+.treeview li.submenu{background:url(fold.gif) no-repeat left 1px;cursor: hand !important;cursor: pointer !important;}
+.treeview li.submenu ul{display: none;}
+.treeview .submenu ul li{cursor: default;}

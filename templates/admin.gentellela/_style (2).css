@@ -1,0 +1,317 @@
+
+ul { 
+    font-size: 1em; 
+    line-height: 1.5em;
+}
+p {
+    margin: 0px;
+    margin-bottom: 2px;
+}
+textarea {
+    padding: 5px;
+}
+body, table {
+    font-family: Segoe UI, Tahoma, sans-serif;
+    font-size: 100%;
+    color: #000;
+}
+body {
+    margin: 0px;
+    background-color: #fff;
+}
+.logo {
+    font-size: 14px;
+}
+h1 {
+    margin: 0px;
+    font-size: 145%;
+    font-weight: normal;
+    margin-bottom: 11px;
+}
+h2 {
+    font-size: 115%;
+    font-weight: normal;
+    margin: 0px;
+    margin-bottom: 3px;
+}
+h3 {
+    font-size: 115%;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+.body {
+    padding: 0px;
+    background-color: #fff;
+    color: #111;
+    font-size: 80%;
+    background-repeat: repeat-x;
+}
+.mainbody {
+    padding-left: 17px;
+    padding-top: 0px;
+    color: #000;
+}
+
+.mini {
+    color: #333;
+    background-color: #fff; 
+    font-size: 70%;
+    padding: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.textbox {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 2px;
+    font-size: 100%;
+    padding: 2px;
+    font-family: Segoe UI, Tahoma, sans-serif; 
+}
+
+.button {
+    background-color: #DC001D;
+    border: 1px solid #890000;
+    color: #fff;
+    font-size: 100%;
+    font-family: Segoe UI, Tahoma, sans-serif;   
+    margin: 0px;
+}
+
+.button2 {
+    background-color: #DC001D;
+    border: 1px solid #890000;
+    height: 35px;
+    color: #fff;
+    font-size: 100%;
+    font-family: Segoe UI, Tahoma, sans-serif;   
+    margin: 0px;
+}
+
+.menu {
+    background-image: url("img/menu.png");
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 75%;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.bodytext {
+    font-size: 80%;
+}
+
+/* Links */
+a {
+    color: #DC001D;
+}
+
+a:hover {
+    color: #B00017;
+}
+
+.menuitem {
+    background-color: #fff; 
+    padding: 3px; 
+    margin-bottom: 1px;
+    color: #000;
+}
+
+.menuitem a {
+    color: #000;
+}
+
+.menuitem a:hover {
+    color: #890012;
+}
+
+table tr td {
+    color: #111;
+}
+
+.widget tr td {
+    background-color: #FFFFDC;
+    padding: 3px;
+    border: 1px solid #FFFED4;
+    font-size: 80%;
+}
+
+.spacing {
+    height: 10px;
+}
+
+.spacing2 {
+    height: 20px;
+}
+
+#ui-datepicker-div {
+    font-size: 70%;
+}
+
+.hd td {
+    background-color: #eee;
+}
+a.nobord{display:block;float:right;margin-top:1px}
+img.nobord{border:0;}
+.tb tr td, .tb tr th{padding:5px;padding:5px;padding-left:8px;padding-right:8px;}
+.tb2 tr td{padding:3px;}
+.tb .hd td, .tb .hd th{text-align:center;background-color:#ddd;}
+.tb .hd td.rightal, .tb .hd th.rightal{text-align:center;background-color:#ddd;}
+.tb .hd td.centeral, .tb .hd th.centeral{text-align:center;background-color:#ddd;}
+.tb tbody tr td{text-align:left;}
+.tb tbody tr td.rightal{text-align:right;}
+.tb tbody tr td.centeral{text-align:center;}
+.tb tbody tr.ordered td{background-color:#ddd;}
+.tb .hd th{cursor:pointer;}
+.tb .tbg{background-color:#ddd;width:110px}
+.hid input{color:#f99;border:1px solid #aaa}
+.hid select{color:#f66;border:1px solid #aaa}
+.hid textarea{color:#f99;border:1px solid #aaa}
+.module {
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+.module h3{
+font-weight:bold;
+}
+.mainbody table {width:100%}
+.underline td{border-bottom:1px dotted #aaa}
+table.brands {padding: 30px;}
+.brands input.button {margin-left: 200px;}
+.sec_title {
+width: 325px;
+float: left;
+overflow: hidden;
+white-space: nowrap;
+}
+.alias{width: 250px;
+float: left;
+overflow: hidden;
+}
+.priceid {
+width: 320px;
+float: left;
+overflow: auto;
+}
+.links {
+float: right;
+width: 210px;
+}
+.clear {
+height: 20px;
+width: 100%;
+clear: both;
+border-bottom: 1px solid #ccc;
+}
+.clear.stitle {
+font-weight: bold;
+height: 25px;
+}
+tr.st {
+font-size: 150%;
+text-align: center;
+
+}
+tr.st td{
+border-bottom: 2px solid red;
+font-weight: bold;
+padding: 15px;
+color:red;
+}
+table.items{width:100%}
+.items td:nth-child(2n+1) {width:250px}
+.items img{max-width:200px}
+.items input[type="text"],.items textarea{width:400px;border-radius:5px;padding:5px;box-shadow:inset #777 2px 2px 4px}
+.items textarea{height:60px}
+.iteminfo{width:410px;float:left;font-weight:bold}
+.items td{padding:20px 0 20px 0;border-bottom:1px solid #ccc}
+.stuff input[type="text"]{width:50px}
+.sec{width:150px;float:left;height:20px}
+.first{font-weight:bold;width:150px;float:left;height:35px}
+.clear{clear:both;width:100%}
+.stuff{float:left}
+a.exists{color:#555}
+.confirmed {
+    background: rgba(184,245,194,.37);
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 0 0 8px 10px;
+}
+.del,.edit,.active,.copy,.csv,.xls,.pdf,.xml{display: inline-block;font-size:0pt;border:0pt none;cursor:pointer;width:24px;height:24px;background-position: -1 -1;}
+.del{background:url('/img/del.png') no-repeat;}
+.edit{background:url('/img/edit.png') no-repeat;}
+.active{background:url('/img/active.png') no-repeat;}
+.copy{background:url('/img/copy.png') no-repeat;}
+.csv{background:url('/img/csv.png') no-repeat;}
+.xls{background:url('/img/xls.png') no-repeat;}
+.pdf{background:url('/img/pdf.png') no-repeat;}
+.xml{background:url('/img/xml.png') no-repeat;}
+.exist,.required {
+    margin: 10px 10px 10px 0;
+    background: rgba(6, 145, 6, 0.23);
+    padding: 10px;
+    border-radius: 10px;
+}
+.floatL {
+    width: 130px;
+    float: left;
+}
+.city label {
+    display: inline-block;
+    width: 215px;
+    text-align: right;
+}
+.info {
+    padding: 10px;
+    background: #ddd;
+    border-radius: 10px;
+    margin: 2px 0 9px 0;
+}
+table.admin {
+    font-size: 110%;
+}
+tr.caption {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.admin tr:nth-child(2n) {
+    background: #f0f0f0; /* Цвет фона */
+   } 
+.admin tr:nth-child(1) {
+    background: #fffcc8; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+} 
+.admin tr:hover {
+    background-color: #e7e7e9;
+}
+table.admin tr td {
+    padding: 10px 0 10px 10px;
+}
+ul.flex-tablecaption {
+    background: #fffcc8 !important;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ul.flex-tablerow {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+.flex-tablerow li {
+    border: 1px solid #fff;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    display: inline-flex;
+}
+ul.flex-tablerow:nth-child(2n) {
+    background: #f0f0f0;
+}
+ul.flex-tablerow:hover {
+    background-color: #e7e7e9;
+}

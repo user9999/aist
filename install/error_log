@@ -1,0 +1,69 @@
+[04-Jun-2020 20:54:13 Europe/Moscow] PHP Fatal error:  require_once(): Failed opening required 'inc/configuration.php' (include_path='.:/usr/share/php5:/usr/share/php') in /home/p/pstomd3zdr/public_html/index.php on line 7
+www.xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 20:55:47 2020] [error] [client 5.144.96.97] File does not exist: /home/p/pstomd3zdr/public_html/files/banner-app2.png, referer: http://www.xn--3-gtbd2ajrgb.xn--p1ai/index.html
+xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:00:38 2020] [error] [client 85.140.4.191] File does not exist: /home/p/pstomd3zdr/public_html/files/banner-app2.png, referer: http://xn--3-gtbd2ajrgb.xn--p1ai/
+xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:00:52 2020] [error] [client 85.140.4.191] File does not exist: /home/p/pstomd3zdr/public_html/files/banner-app2.png, referer: http://xn--3-gtbd2ajrgb.xn--p1ai/
+www.xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:01:48 2020] [error] [client 213.180.203.72] File does not exist: /home/p/pstomd3zdr/public_html/robots.txt
+xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:19:23 2020] [error] [client 185.97.201.187] File does not exist: /home/p/pstomd3zdr/public_html/files/banner-app2.png, referer: http://xn--3-gtbd2ajrgb.xn--p1ai/
+xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:19:41 2020] [error] [client 185.97.201.187] File does not exist: /home/p/pstomd3zdr/public_html/files/banner-app2.png, referer: http://xn--3-gtbd2ajrgb.xn--p1ai/index.html
+www.xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:24:26 2020] [error] [client 185.26.72.228] File does not exist: /home/p/pstomd3zdr/public_html/files/banner-app2.png, referer: http://www.xn--3-gtbd2ajrgb.xn--p1ai/
+xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:28:43 2020] [error] [client 109.162.119.197] File does not exist: /home/p/pstomd3zdr/public_html/files/banner-app2.png, referer: http://xn--3-gtbd2ajrgb.xn--p1ai/
+xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:35:28 2020] [error] [client 78.37.170.18] File does not exist: /home/p/pstomd3zdr/public_html/files/banner-app2.png, referer: http://xn--3-gtbd2ajrgb.xn--p1ai/
+www.xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:36:31 2020] [error] [client 213.180.203.253] File does not exist: /home/p/pstomd3zdr/public_html/robots.txt
+[04-Jun-2020 21:44:20 Europe/Moscow] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/classes/db.php on line 2
+[04-Jun-2020 21:44:20 Europe/Moscow] PHP Warning:  mysql_connect(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/classes/db.php on line 2
+xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 21:45:19 2020] [error] [client 178.66.65.190] File does not exist: /home/p/pstomd3zdr/public_html/files/banner-app2.png, referer: http://xn--3-gtbd2ajrgb.xn--p1ai/
+[04-Jun-2020 21:48:20 Europe/Moscow] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/classes/db.php on line 2
+[04-Jun-2020 21:48:20 Europe/Moscow] PHP Warning:  mysql_connect(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/classes/db.php on line 2
+[04-Jun-2020 21:51:56 Europe/Moscow] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/classes/db.php on line 2
+[04-Jun-2020 22:04:44 Europe/Moscow] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/classes/db.php on line 2
+[04-Jun-2020 22:10:05 Europe/Moscow] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/p/pstomd3zdr/public_html/classes/db.php on line 7
+[04-Jun-2020 22:10:05 Europe/Moscow] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/p/pstomd3zdr/public_html/classes/db.php on line 8
+[04-Jun-2020 22:10:05 Europe/Moscow] PHP Parse error:  syntax error, unexpected '?' in /home/p/pstomd3zdr/public_html/inc/functions.php on line 5
+[04-Jun-2020 22:12:51 Europe/Moscow] PHP Parse error:  syntax error, unexpected '?' in /home/p/pstomd3zdr/public_html/inc/functions.php on line 5
+www.xn--3-gtbd2ajrgb.xn--p1ai [Thu Jun 04 22:12:59 2020] [error] [client 213.180.203.72] File does not exist: /home/p/pstomd3zdr/public_html/robots.txt
+[04-Jun-2020 22:13:51 Europe/Moscow] PHP Parse error:  syntax error, unexpected '?' in /home/p/pstomd3zdr/public_html/inc/functions.php on line 18
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 15
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_real_escape_string(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 15
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 15
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 20
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 20
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 20
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_insert_id(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 22
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_insert_id(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 22
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_insert_id(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 22
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 25
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 25
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 25
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 28
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 28
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 28
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 15
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_real_escape_string(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 15
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 15
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 20
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 20
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 20
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_insert_id(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 22
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_insert_id(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 22
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_insert_id(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 22
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 25
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 25
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 25
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 28
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 28
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 28
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_real_escape_string(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 15
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_real_escape_string(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 15
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 15
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 20
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 20
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 20
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_insert_id(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 22
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_insert_id(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 22
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_insert_id(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 22
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 25
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 25
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 25
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Deprecated:  mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/p/pstomd3zdr/public_html/install/pages.php on line 28
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): Access denied for user 'nkochegarov'@'localhost' (using password: NO) in /home/p/pstomd3zdr/public_html/install/pages.php on line 28
+[04-Jun-2020 22:16:46 Europe/Moscow] PHP Warning:  mysql_query(): A link to the server could not be established in /home/p/pstomd3zdr/public_html/install/pages.php on line 28

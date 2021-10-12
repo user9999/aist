@@ -1,0 +1,48 @@
+html,body{margin:0 0 0 0;padding:0 0 0 0;font-size:10pt;}
+@font-face {font-family: 'Font1';src: url('http://seo.musicvip.ru/html/html5/fonts/IZIMPERB.TTF');}
+body{background:#addddd;font-family:'Font1'}
+@font-face {font-family: 'My Font';src: url('http://seo.musicvip.ru/html/html5/fonts/red_banner.ttf');}
+p{margin:0 0 5px 10px;}
+tr.month{background:#adc3d7;}
+.disable{border:0;background-color:#dddddd;float:left;font-weight:bold;text-align:center;font-size:14px;}
+table.asurf{margin:0;padding:0;}
+A:link.menu{color:#99000a;text-decoration:none;}
+A:visited.menu{color:#99000a;text-decoration:none;}
+A:hover.menu{color:#99000a;text-decoration:underline;}
+A:active.menu{color:#99000a;text-decoration:none;}
+@keyframes anim {
+0% {text-shadow:1px 2px 1px #000}
+50% {text-shadow:1px 2px 4px #f44;}
+100% {text-shadow:1px 2px 1px #000;}
+}
+h2{text-align:center;margin-top:0px;padding-top:0;font-family: 'My Font';color:#99000a;font-size:18px;text-shadow:1px 2px 1px #000;animation:anim 6s 3;}
+.foldheader{cursor:pointer;font-weight:bold ;list-style-image:url(http://seo.musicvip.ru/html/html5/img/fold.gif);color:#99000a;}
+.foldinglist{list-style-image:url(http://seo.musicvip.ru/html/html5/img/list.gif);}
+.folder{list-style-image:url(http://seo.musicvip.ru/html/html5/img/list.gif);font-weight:bold;}
+table.banstat{width:60%;margin:auto;text-align:center;}
+.cash{border:0;text-align:right;background:#dddddd;}
+input{color:#99000a;font-weight:bold;background:#f0f0f0;}
+input.little{color:#99000a;background:#f0f0f0;font-size:10px;}
+select{color:#99000a;font-weight:bold;background:#f0f0f0;}
+textarea{background:#f0f0f0;color:#000077;font-weight:bold;resize:both;}
+.light{background:#ffffff;}
+.context{margin:5px 4px 5px 5px;padding:8px 2px 0px 3px;background:#fff;border-radius:10px;box-shadow:1px 3px 2px 1px #66222a;}
+.system{padding:1px 1px 0 1px;text-align:center;font-style:italic;}
+.warn{color:#99000a;font-weight:bold;padding: 0 0 0 8px;margin:0 0 2px 0;}
+.marked{background:#11dd55;}
+table{margin:auto;}
+div.menu1{text-align:center;padding:0 0 0 0;margin:0 0 0 0;}
+a:link.menu1{display:block;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:8px;float:left;text-align:center;font-size:12px;border:1px groove #99000a;border-radius:5px;box-shadow:1px 3px 2px 1px #66222a;transform:skewX(-15deg);transition: background 1s, border 1s, box-shadow 1s;}
+a:visited.menu1{display:block;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:8px;float:left;text-align:center;font-size:12px;border:1px groove #99000a;border-radius:5px;box-shadow:1px 3px 2px 1px #99000a;}
+a:hover.menu1{display:block;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:8px;float:left;text-align:center;font-size:12px;border:1px groove #dd000a;background:#ffe0ff;border-radius:5px;box-shadow:1px 3px 2px 1px #dd000a;}
+a:active.menu1{display:block;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:8px;float:left;text-align:center;font-size:12px;border:1px groove #99000a;border-radius:5px;box-shadow:1px 3px 2px 1px #99000a;}
+.table{width:350px;}
+p.menu1{display:block;cursor:pointer;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin:0 8px 5px 0;float:left;text-align:center;font-size:11px;border:1px groove #99000a;border-radius:5px;box-shadow:1px 3px 2px 1px #66222a;transform:skewX(-15deg);transition: background 1s, border 1s, box-shadow 1s;}
+p:hover.menu1{display:block;width:100px;height:16px;text-decoration:none;color:#99000a;padding-top:2px;margin-top:0px;margin-right:8px;float:left;text-align:center;font-size:11px;border:1px groove #dd000a;background:#ffe0ff;border-radius:5px;box-shadow:1px 3px 2px 1px #dd000a;}
+.error{border:2px inset red}
+ul.treeview{margin-left:-20px}
+.treeview ul{margin:0;padding:0;}
+.treeview li{background:url(http://seo.musicvip.ru/html/html5/img/list.gif) no-repeat left center;list-style-type: none;padding-left: 30px;margin-bottom: 3px;color:#99000a;}
+.treeview li.submenu{background:url(http://seo.musicvip.ru/html/html5/img/fold.gif) no-repeat left 1px;cursor: pointer !important;}
+.treeview li.submenu ul{display: none;}
+.treeview .submenu ul li{cursor: default;}

@@ -1,0 +1,84 @@
+.simplemodal-wrap {
+overflow: visible !important;
+}
+
+.contact-content{
+height:340px;
+}
+#contact-container{
+left: 50% !important;
+width: 650px !important;
+}
+
+a.modal-close.simplemodal-close {
+margin-right: 50%;
+}
+.simplemodal-wrap{
+margin-left: -50% !important;
+}
+
+#contact-container .contact-content {
+background-color: #fff !important;
+}
+#contact-container .contact-top {
+background-color: #fff !important;
+}
+#contact-container .contact-bottom {
+background-color:#fff !important;
+}
+.contact-content{
+overflow: hidden;
+}
+#contact-container label, .restore label{
+color:#000;
+clear: left;
+display: block;
+float: left;
+font-weight: lighter;
+padding-right: 4px;
+padding-top: 6px;
+text-align: right;
+width: 170px;
+height: 37px;
+}
+input#contact-secpic {
+border: 1px solid #ccc;
+font-family: 'Trebuchet MS', Verdana, Arial;
+float: left;
+padding: 0 0 4px 8px;
+margin: 2px 2px 6px 2px;
+width: 200px;
+height: 28px;
+border-radius: 5px;
+font-size: 120%;
+}
+#contact-container .contact-input,.restore .restore-input{
+border: 1px solid #ccc;
+font-family: 'Trebuchet MS', Verdana, Arial;
+float: left;
+padding: 0 0 4px 8px;
+margin: 2px 2px 6px 2px;
+width: 400px;
+height: 28px;
+border-radius: 5px;
+font-size: 120%;
+}
+#contact-container h1 {
+color: #E29604;
+font-size: 22px;
+line-height: 20px;
+margin: 0;
+padding: 0 0 15px 12px;
+text-align: left;
+font-weight: lighter;
+}
+.rbutton {
+    width: 200px;
+    float: left;
+    height: 38px;
+    padding-top: 7px;
+    color: #555;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#contact-container .contact-button,.restore .button {width: 220px;background:linear-gradient(to top,#fda701,#f1da36,#fda701); border:0; color:#555; cursor:pointer; font-size:16px; font-weight:bold; height:46px; margin:5px 0 0 190px; text-align:center; vertical-align:middle; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}

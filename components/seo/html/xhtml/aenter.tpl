@@ -1,0 +1,1 @@
+Аккаунт <b class="warn"><!--logged--></b><br /><form method="post"><input type="submit" name="logout" value="выйти"></form>

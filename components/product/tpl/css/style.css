@@ -1,0 +1,49 @@
+.configurator-plitka{
+  float:left;
+  width:250px;
+  height:170px;
+  padding:10px;
+  margin:10px 10px 0 0;
+  border:1px solid #f5d328;
+  text-align:center;
+  cursor:pointer;
+  overflow:hidden;
+}
+
+.configurator-plitka:hover{
+  background-color: #dedede;
+    border:1px solid #dedede;
+  color:#fff;
+}
+
+.configurator-plitka.is_active {
+  background-color: #f5d328;
+  color:#fff;
+}
+
+.configurator-plitka .plitka-name{
+  font-size:20px;
+  width:100%;
+}
+
+.configurator-plitka .plitka-price{
+  width:100%;
+  font-size:35px;
+}
+
+.configurator-plitka .plitka-price-val{
+  font-size:20px;
+  width:100%;
+}
+
+.configurator-itog{
+  width:100%;
+  padding:20px 0;
+  font-size:20px;
+}
+
+.configurator-itog span{
+  font-size:35px;
+
+}
+
